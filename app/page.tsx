@@ -34,11 +34,11 @@ export default function Home() {
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 ">
-          Web3 Developer by day, biology enthusiast by night—I navigate the <br/>
-          digital jungles while daydreaming of real ones with crocodiles and <br/>
-          pythons. Building code and chasing reptiles, because who says you <br/>
-          can't have the best of both worlds? 🐊🐍 #TechMeetsWildlife <br/>
+        <h2 className="text-sm text-zinc-500 flex justify-center max-w-sm md:max-w-md">
+          Web3 Developer by day, biology enthusiast by night—I navigate the
+          digital jungles while daydreaming of real ones with crocodiles and
+          pythons. Building code and chasing reptiles, because who says you
+          can't have the best of both worlds? 🐊🐍 #TechMeetsWildlife
         </h2>
       </div>
     </div>
