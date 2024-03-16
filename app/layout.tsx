@@ -9,12 +9,13 @@ export const metadata: Metadata = {
     default: "Benwin",
     template: "%s | Benwin",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Web3 Developer",
   openGraph: {
     title: "Benwin",
+    siteName: "Benwin's Portfolio",
     images: [
       {
-        url: "https://images.emojiterra.com/openmoji/v13.1/512px/1f468-1f4bb.png",
+        url: "https://cdn-icons-png.flaticon.com/512/8757/8757988.png",
         width: 512,
         height: 512,
       },
