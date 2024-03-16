@@ -29,16 +29,17 @@ export default function Home() {
         quantity={100}
       />
       <h1 className="z-10 text-4xl text-transparent duration-1000 bg-white cursor-default text-edge-outline animate-title font-display sm:text-6xl md:text-9xl whitespace-nowrap bg-clip-text ">
-        benwin
+        benwin.eth
       </h1>
 
       <div className="hidden w-screen h-px animate-glow md:block animate-fade-right bg-gradient-to-r from-zinc-300/0 via-zinc-300/50 to-zinc-300/0" />
       <div className="my-16 text-center animate-fade-in">
-        <h2 className="text-sm text-zinc-500 flex justify-center max-w-sm md:max-w-md">
-          Web3 Developer by day, biology enthusiast by night—I navigate the
-          digital jungles while daydreaming of real ones with crocodiles and
-          pythons. Building code and chasing reptiles, because who says you
-          can't have the best of both worlds? 🐊🐍 #TechMeetsWildlife
+        <h2 className="text-sm text-zinc-500 flex flex-col justify-center max-w-sm md:max-w-md">
+          Why did the full-stack developer go broke? <br />
+          {/* <button className="bg-white hover:bg-gray-100 text-gray-800 py-1 px-1 mt-4 w-24 border border-gray-400 rounded shadow">
+            Answer?
+          </button> */}
+          Because they tried to build a website with only JavaScript frameworks!
         </h2>
       </div>
     </div>
