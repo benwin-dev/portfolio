@@ -1,5 +1,5 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
@@ -12,16 +12,16 @@ const socials = [
 		handle: "@benwinSays",
 	},
 	{
-		icon: <Mail size={20} />,
+		icon: <Linkedin size={20} />,
 		href: "https://in.linkedin.com/in/benwin-g-4811001b7?trk=public_profile_browsemap-profile",
-		label: "LinkedIn",
+		label: "Linkedin",
 		handle: "Benwin G",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/benwinmathew",
+		href: "https://github.com/benwin-dev",
 		label: "Github",
-		handle: "benwin",
+		handle: "benwin-dev",
 	},
 ];
 
