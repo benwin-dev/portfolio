@@ -40,13 +40,13 @@ export const Article: React.FC<Props> = ({ project }) => {
         ))}
       </div>
 	  {/* Uncomment to show the Project image */}
-      {/* {project.image && (
+      {project.image && (
         <img
           src={project.image}
           alt="Project"
           className="w-full h-auto object-cover rounded-lg mt-4"
         />
-      )} */}
+      )}
     </article>
   );
 };
